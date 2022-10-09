@@ -22,10 +22,10 @@ public class PayMoney {
 	public static void main(String[] args) {
 		PayMoney p1 = new PayMoney();
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the no of transaction");
+		System.out.println("enter the size of transaction array");
 		int trans = sc.nextInt();
 
-		System.out.println("Enter the values of array");
+		System.out.println("enter the values of array");
 		int[] values = new int[trans];
 
 		for (int i = 0; i < trans; i++) {
